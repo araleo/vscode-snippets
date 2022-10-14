@@ -1,0 +1,41 @@
+{
+  "React TS useState": {
+    "prefix": "us",
+    "body": [
+      "const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState<${2}>(${3});"
+    ],
+    "description": "React's useState with TypeScript syntax"
+  },
+  "React TS useEffect": {
+    "prefix": "ue",
+    "body": ["useEffect(() => {${1}}, []);"],
+    "description": "React's useEffect with TypeScript syntax"
+  },
+  "React TS new functional component": {
+    "prefix": "rnfc",
+    "body": ["const ${1} = () => {};", "", "export default ${1};"],
+    "description": "React's useState with TypeScript syntax"
+  },
+  "Jest new file": {
+    "prefix": "jnf",
+    "body": ["describe('${1}', () => {", "  test('${2}', () => {});", "});"],
+    "description": "Jest new test file with describe and empty test"
+  },
+  "Jest new test": {
+    "prefix": "jnt",
+    "body": ["test('${1}', () => {});"],
+    "description": "Jest new test function with describe and empty test"
+  },
+  "Jest new async test": {
+    "prefix": "jnat",
+    "body": ["test('${1}', async () => {});"],
+    "description": "Jest new async test function with describe and empty test"
+  },
+  "Express TS new async RequestHandler": {
+    "prefix": "enrq",
+    "body": [
+      "export const ${1}: RequestHandler = async (req, res, next) => {};"
+    ],
+    "description": "Express new async RequestHandler method with TypeScript syntax"
+  }
+}
