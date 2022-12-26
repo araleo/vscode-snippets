@@ -31,6 +31,11 @@
     "body": ["test('${1}', async () => {});"],
     "description": "Jest new async test function with describe and empty test"
   },
+  "New arrow function": {
+		"prefix": "naf",
+		"body": "const ${1} = () => {};",
+		"description": "New arrow function"
+	},
   "Express TS new async RequestHandler": {
     "prefix": "enrq",
     "body": [

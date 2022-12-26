@@ -41,5 +41,10 @@
       "});"
     ],
     "description": "Jest react test file with imports, describe and empty test"
-  }
+  },
+  "New arrow function": {
+		"prefix": "naf",
+		"body": "const ${1} = () => {};",
+		"description": "New arrow function"
+	}
 }
