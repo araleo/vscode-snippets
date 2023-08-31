@@ -1,0 +1,34 @@
+{
+  "Python new file": {
+    "prefix": "pnf",
+    "body": [
+      "def main():",
+      "    print(\"Hello World\")",
+      "",
+      "",
+      "if __name__ == \"__main__\":",
+      "    main()",
+      ""
+    ],
+    "description": "React's useState with TypeScript syntax"
+  },
+  "Python read file function": {
+    "prefix": "prf",
+    "body": [
+      "def read_file(filepath: str) -> str:",
+      "    with open(filepath) as f:",
+      "        content = f.read()",
+      "    return content"
+    ],
+    "description": "Python function to read whole file as a string"
+  },
+  "Python write file function": {
+    "prefix": "pwf",
+    "body": [
+      "def read_file(filepath: str, content: str):",
+      "    with open(filepath, \"w\") as f:",
+      "        f.write(content)"
+    ],
+    "description": "Python function to write string content in a file"
+  }
+}

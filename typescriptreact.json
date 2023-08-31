@@ -43,8 +43,33 @@
     "description": "Jest react test file with imports, describe and empty test"
   },
   "New arrow function": {
-		"prefix": "naf",
-		"body": "const ${1} = () => {};",
-		"description": "New arrow function"
-	}
+    "prefix": "naf",
+    "body": ["const ${1} = () => {};"],
+    "description": "New arrow function"
+  },
+  "New async arrow function": {
+    "prefix": "naaf",
+    "body": ["const ${1} = async () => {};"],
+    "description": "New async arrow function"
+  },
+  "New arrow function with export": {
+    "prefix": "enaf",
+    "body": ["export const ${1} = () => {};"],
+    "description": "New arrow function with export"
+  },
+  "New async arrow function with export": {
+    "prefix": "enaaf",
+    "body": ["export const ${1} = async () => {};"],
+    "description": "New async arrow function with export"
+  },
+  "New styled component": {
+    "prefix": "nsc",
+    "body": ["export const ${1} = styled(${2})`", "  ${3}", "`;"],
+    "description": "New async arrow function"
+  },
+  "Use dispatch": {
+    "prefix": "disp",
+    "body": ["const dispatch = useAppDispatch();"],
+    "description": "Use dispatch hook"
+  }
 }

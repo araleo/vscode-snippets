@@ -1,0 +1,17 @@
+{
+  "Rust New Test": {
+    "prefix": "rnt",
+    "body": ["#[test]", "fn ${1}() {", "", "}"],
+    "description": "Rust create a new test"
+  },
+  "Rust New Function": {
+    "prefix": "rnf",
+    "body": ["fn ${1}() {", "", "}"],
+    "description": "Rust create a new function"
+  },
+  "Rust New Public Function": {
+    "prefix": "rnpf",
+    "body": ["pub fn ${1}() {", "", "}"],
+    "description": "Rust create a new function"
+  }
+}
