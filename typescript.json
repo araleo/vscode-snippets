@@ -72,5 +72,14 @@
     "prefix": "disp",
     "body": ["const dispatch = useAppDispatch();"],
     "description": "Use dispatch hook"
+  },
+  "Zod New Schema": {
+    "prefix": "zne",
+    "body": [
+      "export const ${1}Schema = z.object({${2}})",
+      "",
+      "export type ${1/(.*)/${1:/capitalize}/} = z.infer<typeof ${1}Schema>"
+    ],
+    "description": "New zod base schema with type inference"
   }
 }
